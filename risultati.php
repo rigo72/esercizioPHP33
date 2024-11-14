@@ -12,7 +12,7 @@
 <body>
     <?php
         foreach($_SESSION["registrazioni"] as $cf => $eta) {
-            echo "$cf - $eta <br>";
+            echo "Codice fiscale: {$cf} - Età: {$eta} <br>";
         }
     ?>
 </body>
